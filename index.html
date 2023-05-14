@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elo Rest</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="app/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/10d7493f97.css" crossorigin="anonymous">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="app/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="app/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="app/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="app/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="app/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="app/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="app/plugins/summernote/summernote-bs4.min.css">
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="app/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="app/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="app/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+</head>
+
+<style>
+    html,
+    body {
+        background-color: #f4f6f9;
+        margin: 0;
+        /* width: 100%;
+    height: 100%; */
+    }
+
+    .form-container {
+        background-color: white;
+        width: 70%;
+        height: 40%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+        /* box-shadow: 5px 5px 20px; */
+        box-shadow: 4px 5px 15px 0px #00000040;
+    }
+
+    .form-container button {
+        width: 180px;
+        height: 100px;
+        font-weight: bold;
+        background-color: #f3960a;
+        border: none;
+    }
+
+    .form-container button:hover,
+    .form-container button:active {
+        background-color: #d4830b;
+        border: none;
+    }
+
+    .btn-space {
+        margin-right: 80px;
+    }
+</style>
+
+<body>
+    <div class="container-fluid w-100 h-100">
+        <div class="row align-items-center h-100">
+            <div class="d-flex align-item-center justify-content-center form-container">
+                <div class="d-flex align-items-center">
+                    <a href="app/Rest/index.php"><button type="button" class="btn btn-primary btn-lg btn-space">ELO Rest API</button></a>
+                    <a href="app/Ix/index.php"><button type="button" class="btn btn-primary btn-lg">ELO Indexserver</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
